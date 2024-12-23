@@ -485,10 +485,15 @@
 
     </section>
 
-    <p>&copy; 2024 The Wizarding World of Harry Potter Fan Site. All rights reserved.</p>
+    <p>&copy; <span id="currentYearTable"></span> The Wizarding World of Harry Potter Fan Site. All rights reserved.</p>
 
   </footer>
   <!-- Website footer ends here -->
+
+  <script>
+    // Get the current year using JavaScript and set it in the element with ID 'currentYear'
+    document.getElementById('currentYearTable').textContent = new Date().getFullYear();
+  </script>
 
 </body>
 <!-- Website body ends here -->
