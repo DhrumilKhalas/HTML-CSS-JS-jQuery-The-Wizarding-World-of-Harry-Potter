@@ -1,0 +1,54 @@
+/* CSS for table.html starts here */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+th {
+  background-color: #f2f2f2;
+}
+.table-headings {
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.table-header {
+  height: 300px !important;
+}
+.table-article {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.right-aside-table {
+  height: max-content;
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  font-style: normal;
+  font-size: 13px;
+  margin-bottom: 20px;
+  padding-bottom: 50px !important;
+}
+.right-aside-text {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 13px;
+  line-height: 16px;
+}
+.right-aside-main-title {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+/* CSS for table.html ends here */

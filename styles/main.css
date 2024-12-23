@@ -1,0 +1,365 @@
+/* Importing the Google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+/* Scrollbar CSS starts here */
+body {
+  --sb-track-color: #f1f1f1;
+  --sb-thumb-color: #c6c6c6;
+  --sb-size: 10px;
+}
+body::-webkit-scrollbar {
+  width: var(--sb-size);
+}
+body::-webkit-scrollbar-track {
+  background: var(--sb-track-color);
+  border-radius: 5px;
+}
+body::-webkit-scrollbar-thumb {
+  background: var(--sb-thumb-color);
+  border-radius: 5px;
+}
+@supports not selector(::-webkit-scrollbar) {
+  body {
+    scrollbar-color: var(--sb-thumb-color) var(--sb-track-color);
+  }
+}
+/* Scrollbar CSS ends here */
+
+/* html tag, body tag, main tag, header tag related CSS starts here */
+html,
+body {
+  margin: 0;
+  padding: 10px 10px 0px 10px;
+  scroll-behavior: smooth;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+main {
+  display: flex;
+  margin-top: 20px;
+}
+main article {
+  flex: 5;
+  padding: 0px 40px;
+}
+main .right-aside {
+  flex: 1.6;
+  background-color: #fcf5e7;
+  color: #5b3a29;
+  border-radius: 8px;
+  padding: 0 30px;
+  height: max-content;
+  -webkit-box-shadow: 5px 5px 5px 0px rgba(227, 213, 195, 1);
+  -moz-box-shadow: 5px 5px 5px 0px rgba(227, 213, 195, 1);
+  box-shadow: 5px 5px 5px 0px rgba(227, 213, 195, 1);
+}
+.header {
+  position: relative;
+  height: 140px;
+}
+.anchor-logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.site-title {
+  letter-spacing: 3px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #b48b4d;
+  text-align: center;
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.logo {
+  height: 110px;
+  width: 200px;
+  cursor: pointer;
+}
+.floral-icon {
+  height: 40px;
+  width: 30px;
+  margin-top: -10px;
+}
+.subheader-text {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-style: normal;
+  padding: 0px 20px;
+  line-height: 25px;
+}
+.subheader {
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-top: 60px;
+  color: #b48b4d;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+/* html tag, body tag, main tag, header tag related CSS ends here */
+
+/* Navbar CSS starts here */
+.navbar {
+  background-color: #7f0909;
+  border: 1px solid #7f090919;
+  border-radius: 5px;
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 13px;
+}
+.navbar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.nav-anchors {
+  text-decoration: none;
+  color: #fcf5e7 !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  gap: 10px;
+  letter-spacing: 3px;
+}
+.nav-title {
+  font-size: 16px;
+}
+#nav-table-icon {
+  height: 20px;
+  width: 20px;
+}
+.navbar ul li {
+  position: relative;
+}
+.navbar ul li a {
+  padding: 20px;
+  color: #333;
+  display: block;
+}
+.navbar ul li a:hover,
+.navbar ul li a:focus {
+  background-color: #7f0909;
+  color: #fcf5e7;
+}
+.navbar ul li ul {
+  position: absolute;
+  left: 0;
+  width: 200px;
+  background: #fff;
+  display: none;
+  z-index: 1000;
+}
+.navbar ul li ul li {
+  width: 100%;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+.navbar ul li ul li a {
+  padding: 15px 20px;
+  text-decoration: none;
+  letter-spacing: 1.5px;
+}
+.navbar ul li:hover > ul {
+  display: block;
+}
+.navbar ul li:hover > a,
+.navbar ul li a:focus {
+  background-color: #7f0909;
+  color: #fcf5e7;
+}
+.navbar ul li ul li a:hover,
+.navbar ul li ul li a:focus {
+  background-color: #7f0909;
+  color: #fff;
+}
+.navbar-icons {
+  height: 25px;
+  width: 25px;
+}
+#down-arrow {
+  margin-left: 8px;
+}
+/* Navbar CSS ends here */
+
+/* Left sidebar CSS starts here */
+.sidebar-icons {
+  height: 30px;
+  width: 30px;
+}
+main .left-aside {
+  flex: 1;
+  background-color: #7f0909;
+  letter-spacing: 1.5px;
+  border-radius: 8px;
+  height: max-content;
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 13px;
+}
+.sidebar-anchor {
+  color: #fcf5e7;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.left-aside-div {
+  margin-top: 20px;
+  border: 1px solid #fcf5e7;
+  border-radius: 7px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.left-aside-div:hover {
+  color: #7f0909;
+  font-weight: 800;
+  background-color: #aa8855;
+}
+.left-aside-div:active {
+  transform: scale(0.8);
+  background-color: #6b0000;
+}
+.left-aside-div:hover .sidebar-anchor {
+  color: #7f0909;
+  font-weight: 800;
+}
+/* Left sidebar CSS ends here */
+
+/* Right sidebar CSS starts here */
+.right-aside-titles {
+  background-color: #f3e5ab;
+  padding: 10px 8px;
+  border-radius: 8px;
+  text-align: center;
+  cursor: pointer;
+}
+.right-aside-titles:hover {
+  color: #fcf5e7;
+  background-color: #7f0909;
+  transition: 1s;
+}
+.right-aside-div {
+  margin-top: 30px;
+}
+.right-aside-hr {
+  border: none;
+  height: 0.5px;
+  color: #7f0909; /* old IE */
+  background-color: #7f0909; /* Modern Browsers */
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+/* Right sidebar CSS ends here */
+
+/* Footer CSS starts here */
+footer {
+  background-color: #f5f3ef;
+  margin-top: 20px;
+  border-radius: 5px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 30;
+  padding-right: 30px;
+  margin-bottom: 30px;
+  letter-spacing: 1.5px;
+  -webkit-box-shadow: 3px 3px 5px 0px rgba(194, 190, 185, 1);
+  -moz-box-shadow: 3px 3px 5px 0px rgba(194, 190, 185, 1);
+  box-shadow: 3px 3px 5px 0px rgba(194, 190, 185, 1);
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 13px;
+}
+footer nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+}
+footer nav ul a {
+  text-decoration: none;
+  color: black;
+}
+footer p {
+  text-align: center;
+}
+.social-icon img {
+  height: 20px;
+  width: 20px;
+}
+.footer-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 150px;
+  margin-top: 30px;
+}
+.social-media {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+.social-icon {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: black;
+}
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.form input {
+  height: 30px;
+  border: 1px solid #7f0909;
+}
+.form input:focus {
+  outline: #7f0909;
+}
+.form button {
+  height: 35px;
+  width: 100px;
+  background-color: #7f0909;
+  color: #fcf5e7;
+  border: 1px solid #7f0909;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+}
+.form button:active {
+  scale: 0.9;
+}
+.form input {
+  text-indent: 5px;
+}
+footer p {
+  letter-spacing: 1.5px;
+  margin-top: 30px;
+}
+/* Footer CSS ends here */

@@ -1,0 +1,62 @@
+/* CSS for index.html starts here */
+.index-title {
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #5b3a29;
+  font-size: 24px;
+  margin-top: 40px;
+}
+#index-title {
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 35px;
+  line-height: 50px;
+  color: #b48b4d;
+}
+.article-index {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #5b3a29;
+  font-size: 14px;
+}
+.article-text-index {
+  line-height: 25px;
+  letter-spacing: 1.5px;
+}
+.index-icons {
+  height: 40px;
+  width: 40px;
+  margin-top: 15px;
+}
+.index-divs {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.right-aside-index {
+  height: max-content;
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  font-style: normal;
+  font-size: 13px;
+  margin-bottom: 20px;
+  padding-bottom: 50px !important;
+  padding-top: 10px !important;
+}
+.right-aside-text {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 13px;
+  line-height: 20px;
+}
+/* CSS for index.html ends here */

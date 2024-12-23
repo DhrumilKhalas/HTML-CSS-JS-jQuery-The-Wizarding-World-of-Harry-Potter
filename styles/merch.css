@@ -1,0 +1,120 @@
+/* CSS for merch.html starts here */
+.merch-header {
+  height: 300px !important;
+}
+.merch-card {
+  background-color: #f3e5ab;
+  padding: 15px;
+  border-radius: 8px;
+  -webkit-box-shadow: 5px 5px 5px 0px rgba(209, 193, 144, 1);
+  -moz-box-shadow: 5px 5px 5px 0px rgba(209, 193, 144, 1);
+  box-shadow: 5px 5px 5px 0px rgba(209, 193, 144, 1);
+  border: 1px solid #7f09094a;
+  height: 290px;
+  width: 235px;
+}
+.merch-card-main {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  flex-wrap: wrap;
+}
+.merch-card-img-div {
+  border: 1px solid #7f09094a;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.merch-card-img-div:hover {
+  scale: 1.05;
+  transition: 1s;
+  background-color: #f5f5f5;
+}
+.merch-card-img {
+  height: 120px;
+  width: 120px;
+}
+.merch-card-sub {
+  display: flex;
+  flex-direction: column;
+  height: 58%;
+}
+.merch-card-btn-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
+}
+.merch-name-1 {
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-style: normal;
+  font-size: 16px;
+  color: #7f0909;
+}
+.merch-name-2 {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 13px;
+  color: #231005;
+  letter-spacing: 1px;
+}
+.merch-btn {
+  height: 35px;
+  width: 100px;
+  background-color: #7f0909;
+  color: #fcf5e7;
+  border: 1px solid #7f0909;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 13px;
+}
+.merch-btn:hover {
+  background-color: #9b0c0c;
+  transition: 0.3s;
+}
+.merch-card-title {
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.merch-hr {
+  border: none;
+  height: 2px;
+  color: #7f0909; /* old IE */
+  background-color: #7f0909; /* Modern Browsers */
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.right-aside-merch {
+  height: max-content;
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  font-style: normal;
+  font-size: 13px;
+}
+.Category-descrption-text {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 13px;
+}
+.merch-footer {
+  margin-top: 60px;
+}
+/* CSS for merch.html ends here */
